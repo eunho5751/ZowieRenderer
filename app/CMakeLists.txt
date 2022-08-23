@@ -1,6 +1,10 @@
 
-set(SOURCES src/main.cpp)
-set(HEADERS "")
+set(SOURCES 
+	src/main.cpp
+	src/shader.cpp)
+
+set(HEADERS 
+	src/shader.hpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 
