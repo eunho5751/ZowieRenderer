@@ -1,10 +1,13 @@
 
 set(SOURCES 
 	src/main.cpp
-	src/shader.cpp)
+	src/shader.cpp
+	src/texture_2d.cpp)
 
 set(HEADERS 
-	src/shader.hpp)
+	src/shader.hpp
+	src/texture_consts.hpp
+	src/texture_2d.hpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 
